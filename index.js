@@ -905,6 +905,7 @@ app.post("/webhook", (req, res) => {
   setImmediate(async () => {
     try {
       if (DEBUG) {
+        console.log("🔎 instanceId recebido:", req.body?.instanceId);
         console.log("📦 WEBHOOK BODY KEYS:", Object.keys(req.body || {}));
         console.log("📦 WEBHOOK TYPE/EVENT:", {
           type: req.body?.type,
