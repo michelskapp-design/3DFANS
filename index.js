@@ -317,20 +317,41 @@ function isDuplicate(phone, text) {
 
 /* ================== PARSE PAYLOAD Z-API (ROBUSTO) ================== */
 function extractPhone(body) {
-  const v =
-    body?.phone ||
-    body?.from ||
-    body?.data?.phone ||
-    body?.data?.from ||
-    body?.message?.from ||
-    body?.message?.phone ||
-    body?.text?.from ||
-    body?.sender ||
-    body?.senderPhone ||
-    body?.message?.sender ||
-    null;
+  const candidates = [
+    body?.phone,
+    body?.from,
+    body?.senderPhone,
+    body?.sender,
+    body?.data?.phone,
+    body?.data?.from,
+    body?.data?.senderPhone,
+    body?.message?.from,
+    body?.message?.phone,
+    body?.message?.senderPhone,
+    body?.text?.from,
+  ];
+  const v = candidates.find((x) => typeof x === "string" || typeof x === "number");
+  return v ?? null;
+}
 
-  return v;
+function extractText(body) {
+  const candidates = [
+    body?.message,                 // às vezes é string direta
+    body?.text,                    // às vezes é string direta
+    body?.data?.message,
+    body?.data?.text,
+    body?.text?.message,
+    body?.text?.text,
+    body?.message?.text,
+    body?.message?.message,
+  ];
+
+  for (const c of candidates) {
+    if (typeof c === "string") return c;
+    if (c && typeof c?.message === "string") return c.message;
+    if (c && typeof c?.text === "string") return c.text;
+  }
+  return "";
 }
 
 function extractText(body) {
