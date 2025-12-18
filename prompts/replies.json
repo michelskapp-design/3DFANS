@@ -1,0 +1,196 @@
+{
+  "welcome": "Olá{nome}!\n\n Eu sou o Carlos Skowronski da 3DFANS, tudo bem? 😊 O que você deseja por hoje?\n\n1️⃣ Nosso Catálogo\n2️⃣ Crie sua Miniatura ( 3 minutos )\n\nResponda com 1 ou 2.",
+  "miniatura": "Conte-me mais sobre como você quer essa miniatura, poderia enviar uma foto e dar maiores informações, lembrando que fazemos miniaturas em dois tamanhos 16cm ou 21cm de altura.",
+  "fotoAqui": "Pode sim, vamos avaliar e lhe passar o orçamento correto.",
+  "prazoMiniatura": "Levamos até 7 dias úteis para produzir, pintar e embalar para envio.",
+  "miniatura": "Perfeito😊\nConte-me mais sobre o que você quer transformar em miniatura.\n\nE me envia uma foto como referência.",
+  "menuMiniatura": "Perfeito😊\nNós trabalhamos com 2 tamanhos de miniatura, 16cm e 21cm de altura e o valor pode variar de R$199 a R$699 com frete grátis.\n\n Para fazer um orçamento você precisa enviar uma foto para criarmos um modelo para você saber como vai ficar o produto final.",
+  "menuMascote": "Show! ⚽\nTemos mascotes de varios times de futebol e estamos com FRETE GRÁTIS só hoje.\n\n📸 As fotos são fotos reais do produto.\nMe diga qual Time de Futebol você quer?",
+  "medidas": "10cm, 16cm, 21cm",
+  "boas_vindas": "Olá! 👋 Eu sou o Carlos, da *3DFANS* 😊 Como posso te ajudar hoje?",
+
+  "objecao_preco_alto": "Entendo perfeitamente 😊 Nosso valor reflete o trabalho artesanal, a pintura à mão e o nível de detalhe da peça. É um produto colecionável, feito sob medida pra você.",
+  "objecao_preco_comparacao": "Ótima pergunta! Diferente de produtos comuns, nossas miniaturas são personalizadas, feitas em resina premium e pintadas à mão 🎨 Isso garante exclusividade e qualidade.",
+  "objecao_preco_desconto": "No momento trabalhamos com preço justo e frete grátis 🚚, mas posso te ajudar a escolher a melhor opção custo-benefício 😊",
+
+  "medo_nao_ficar_parecido": "Pode ficar tranquilo 😊 Antes da produção final, você vê a PRÉVIA para garantir que fique do jeitinho que você imaginou.",
+  "medo_compra_online": "Entendo seu receio 😊 Trabalhamos com pagamento seguro e atendimento humano sempre que precisar.",
+  "medo_entrega": "Fique tranquilo 🚚 Assim que o pedido for enviado, você recebe o código de rastreio.",
+
+  "comparacao_concorrente": "Existem opções no mercado, sim 😊 Nosso diferencial é o acabamento premium e a fidelidade ao rosto do cliente.",
+  "comparacao_preco_barato": "Produtos muito baratos geralmente não têm pintura manual nem revisão de qualidade. Aqui priorizamos resultado final e satisfação.",
+
+  "urgencia_presente": "Se for presente 🎁, me avisa a data que eu verifico prioridade pra você.",
+  "urgencia_promocao": "Essa condição de frete grátis é por tempo limitado 😊 Se quiser aproveitar, é só me dizer.",
+
+  "duvida_material": "Usamos resina premium própria para impressão 3D, com ótimo nível de detalhe e durabilidade.",
+  "duvida_tamanho": "Temos 16cm (ideal para presente) e 21cm (mais imponente e detalhado).",
+
+  "duvida_prazo": "O prazo médio de produção é de até 7 dias úteis após confirmação do pagamento.",
+
+  "duvida_pintura": "Sim 😊 Todas as peças são pintadas à mão, com cuidado nos mínimos detalhes.",
+
+  "duvida_personalizacao": "Podemos ajustar detalhes como expressão, roupa e base dentro do estilo escolhido.",
+
+  "duvida_base": "A base é redonda, preta e elegante, pensada para valorizar a peça.",
+
+  "duvida_envio": "Enviamos para todo o Brasil 🇧🇷 com frete grátis.",
+
+  "interesse_mas_indeciso": "Sem pressa 😊 Se quiser, posso te explicar novamente o processo passo a passo.",
+
+  "interesse_forte": "Que ótimo 😍 Vamos avançar então! Pode me enviar a foto?",
+
+  "pedido_exemplo": "Posso te mostrar exemplos reais de miniaturas já produzidas, se quiser.",
+
+  "pedido_prova_social": "Já produzimos centenas de miniaturas e nossos clientes costumam amar o resultado 😊",
+
+  "pedido_garantia": "A PRÉVIA serve justamente para você aprovar antes da produção final.",
+
+  "pedido_humano": "Claro 😊 Vou chamar um atendente humano agora mesmo.",
+
+  "cancelamento_duvida": "Se tiver qualquer dúvida antes de finalizar, é só me falar 😊",
+
+  "retorno_depois": "Sem problemas 😊 Estarei por aqui quando quiser continuar.",
+
+  "agradecimento": "Obrigado pelo contato! 💙 Qualquer coisa, é só me chamar.",
+
+  "despedida": "Foi um prazer te atender 😊 A 3DFANS está sempre à disposição!",
+
+  "boas_vindas": "Olá{nome}! 👋 Eu sou o Carlos, da *3DFANS* 😊 Como posso te ajudar hoje?",
+
+  "objecao_preco_01": "Entendo 😊 Nosso preço reflete um trabalho artesanal, pintura à mão e alto nível de detalhe.",
+  "objecao_preco_02": "É um investimento em algo exclusivo, feito especialmente pra você.",
+  "objecao_preco_03": "Não é um produto industrializado, é uma peça de coleção.",
+  "objecao_preco_04": "Cada miniatura é única, por isso o valor é diferente de produtos comuns.",
+  "objecao_preco_05": "O frete é grátis 🚚, isso já reduz bastante o custo final.",
+  "objecao_preco_06": "O valor inclui modelagem, pintura manual e acabamento.",
+  "objecao_preco_07": "Produtos mais baratos geralmente não têm pintura manual.",
+  "objecao_preco_08": "Aqui você paga pela fidelidade e qualidade.",
+  "objecao_preco_09": "A prévia garante que você só produza se gostar.",
+  "objecao_preco_10": "Muitos clientes dizem que vale cada centavo 😊",
+
+  "medo_01": "Pode ficar tranquilo 😊 Você aprova a prévia antes da produção final.",
+  "medo_02": "A prévia existe justamente para evitar surpresas.",
+  "medo_03": "Se algo não agradar na prévia, ajustamos.",
+  "medo_04": "Trabalhamos com pagamento seguro.",
+  "medo_05": "Você recebe código de rastreio após o envio.",
+  "medo_06": "Já atendemos centenas de clientes em todo o Brasil.",
+  "medo_07": "Nossa reputação é construída em cima de confiança.",
+  "medo_08": "Estamos sempre disponíveis no WhatsApp.",
+  "medo_09": "Nada é produzido sem sua aprovação.",
+  "medo_10": "Se preferir, um atendente humano pode ajudar.",
+
+  "comparacao_01": "Na Shopee geralmente são peças genéricas.",
+  "comparacao_02": "No Mercado Livre raramente há personalização real.",
+  "comparacao_03": "Aqui tudo é feito sob medida.",
+  "comparacao_04": "Nossa pintura é manual, não industrial.",
+  "comparacao_05": "A fidelidade ao rosto é nosso diferencial.",
+  "comparacao_06": "Não usamos modelos prontos.",
+  "comparacao_07": "Cada cliente recebe uma peça exclusiva.",
+  "comparacao_08": "Concorrentes costumam terceirizar pintura.",
+  "comparacao_09": "Aqui o controle de qualidade é interno.",
+  "comparacao_10": "Por isso o resultado final é superior.",
+
+  "urgencia_01": "É para presente? 🎁 Me diga a data.",
+  "urgencia_02": "Se tiver data limite, verifico prioridade.",
+  "urgencia_03": "Aniversários merecem algo especial.",
+  "urgencia_04": "Consigo adiantar se o pagamento for rápido.",
+  "urgencia_05": "Quanto antes confirmar, melhor o prazo.",
+  "urgencia_06": "Datas especiais costumam lotar a agenda.",
+  "urgencia_07": "Posso reservar vaga na produção.",
+  "urgencia_08": "Hoje ainda consigo encaixar.",
+  "urgencia_09": "Quanto antes decidir, melhor.",
+  "urgencia_10": "Não deixe para última hora 😊",
+
+  "emocional_01": "É um presente que emociona de verdade 💙",
+  "emocional_02": "Muitos clientes choram quando recebem.",
+  "emocional_03": "É algo que a pessoa guarda para sempre.",
+  "emocional_04": "Vai muito além de um presente comum.",
+  "emocional_05": "Cada detalhe carrega sentimento.",
+  "emocional_06": "É uma homenagem em forma de arte.",
+  "emocional_07": "Perfeito para surpreender.",
+  "emocional_08": "Mostra cuidado e carinho.",
+  "emocional_09": "Marca momentos importantes.",
+  "emocional_10": "Cria memórias afetivas.",
+
+  "fechamento_01": "Posso gerar o link para você agora 😊",
+  "fechamento_02": "Quer que eu avance com seu pedido?",
+  "fechamento_03": "Assim que confirmar, inicio a produção.",
+  "fechamento_04": "Posso reservar sua vaga agora.",
+  "fechamento_05": "Quer garantir o frete grátis?",
+  "fechamento_06": "Vamos fechar para não perder a data?",
+  "fechamento_07": "Posso te ajudar a finalizar agora.",
+  "fechamento_08": "Se quiser, já envio o link.",
+  "fechamento_09": "Vamos dar o próximo passo?",
+  "fechamento_10": "É só me confirmar que eu resolvo tudo 😊",
+
+  "despedida": "Foi um prazer te atender 😊 A *3DFANS* está sempre à disposição!",
+
+  "boas_vindas": "Olá{nome}! 👋 Eu sou o Carlos, da *3DFANS* 😊\n\nO que você deseja hoje?\n\n1️⃣ Mascotes de Times de Futebol\n2️⃣ Miniaturas Personalizadas (a partir de foto)\n\n👉 Responda com *1* ou *2*",
+
+  "menu_mascotes": "Show! ⚽🔥\n\nTemos mascotes de vários times, feitos em impressão 3D e pintados à mão 🎨\n🚚 *Frete grátis hoje*\n📸 Fotos reais do produto\n\n👉 Qual time você quer?",
+
+  "menu_miniaturas": "Perfeito 😊\n\nCriamos uma miniatura 3D personalizada a partir da sua foto.\n📸 Envie a foto por aqui e eu já começo!\n\nTamanhos disponíveis:\n👉 16cm ou 21cm",
+
+  "pedir_foto": "📸 Pode me enviar a foto por aqui? Assim consigo criar sua miniatura bem fiel 😊",
+
+  "dica_foto": "Dica rápida 📷: fotos bem iluminadas e de frente deixam a miniatura ainda mais parecida!",
+
+  "foto_recebida": "Foto recebida! 😍 Já dá pra fazer uma miniatura bem fiel.",
+
+  "explicar_taxa_previa": "Para criar a *PRÉVIA* (imagem de como sua miniatura vai ficar), cobramos uma pequena taxa de *R$9,90*. Assim que confirmar o pagamento, eu gero a prévia rapidinho 😊",
+
+  "porque_cobra_previa": "A taxa da prévia ajuda a cobrir o processamento e garante prioridade no atendimento 😊 Depois disso, você escolhe o tamanho final.",
+
+  "tempo_previa": "Após o pagamento, a prévia costuma ficar pronta em poucos minutos ⏱️",
+
+  "previa_enviada": "✨ Aqui está a PRÉVIA da sua estatueta!\n\nAgora escolha o tamanho para continuar:\n👉 16cm ou 21cm",
+
+  "pedir_tamanho": "Qual tamanho você prefere?\n👉 16cm ou 21cm 😊",
+
+  "diferenca_tamanhos": "A de *21cm* é mais imponente e detalhada.\nA de *16cm* é perfeita para presente ou mesa.\nAmbas ficam incríveis 😍",
+
+  "orcamento_16cm": "📏 Tamanho: 16cm\n💰 Valor: R$399\n🚚 Frete: Grátis\n⏱️ Produção: até 7 dias úteis",
+
+  "orcamento_21cm": "📏 Tamanho: 21cm\n💰 Valor: R$699\n🚚 Frete: Grátis\n⏱️ Produção: até 7 dias úteis",
+
+  "explicar_pagamento": "Assim que o pagamento for confirmado, iniciamos a produção da sua miniatura imediatamente 😊",
+
+  "pagamento_confirmado": "✅ Pagamento confirmado!\nAgora vou iniciar a produção da sua miniatura 🎨🔥",
+
+  "status_producao": "Sua miniatura já está em produção 😊 Qualquer novidade eu te aviso por aqui.",
+
+  "informar_frete": "O frete é *GRÁTIS* 🚚\nAssim que postar, te envio o código de rastreio.",
+
+  "prazo_entrega": "Após a produção, o prazo de entrega varia conforme sua região, mas normalmente é bem rápido 😊",
+
+  "pergunta_presente": "É para presente? 🎁 Posso caprichar ainda mais na embalagem!",
+
+  "mensagem_presente": "Se quiser, posso incluir uma mensagem especial no pedido 💌",
+
+  "qualidade_produto": "Nossas miniaturas são feitas em resina premium e pintadas à mão 🎨 Trabalho de colecionador mesmo!",
+
+  "durabilidade": "É uma peça decorativa resistente, mas recomendamos evitar quedas e exposição ao sol direto ☀️",
+
+  "limpeza": "Para limpeza, use apenas pano seco ou levemente úmido 😊",
+
+  "confianca": "Pode ficar tranquilo 😊 Já atendemos centenas de clientes e trabalhamos com pagamento seguro.",
+
+  "sobre_empresa": "A *3DFANS* é especializada em miniaturas personalizadas e mascotes colecionáveis em impressão 3D 🖨️",
+
+  "chamar_humano": "Claro 😊 Vou chamar um atendente humano pra te ajudar agora mesmo.",
+
+  "ajuda_menu": "Se precisar, digite:\n• *menu* para voltar ao início\n• *humano* para falar com atendente",
+
+  "fora_escopo": "Boa pergunta 😊 Vou chamar um atendente humano pra te ajudar melhor nesse caso.",
+
+  "pedido_desculpa": "Desculpa a demora 🙏 Já estou resolvendo pra você.",
+
+  "agradecimento": "Obrigado pelo contato! 😊 Qualquer coisa, é só me chamar por aqui.",
+
+  "despedida": "Foi um prazer te atender 💙 Sempre que quiser, a 3DFANS está por aqui!"
+
+
+
+
+}
