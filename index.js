@@ -19,6 +19,10 @@ app.use(
     },
   })
 );
+// ✅ Body parsers (garante que req.body venha preenchido)
+app.use(express.json({ limit: "2mb" }));
+app.use(express.urlencoded({ extended: true, limit: "2mb" }));
+
 app.use(express.urlencoded({ extended: true, limit: "2mb" }));
 
 /* ================== CONFIG ================== */
@@ -1219,6 +1223,29 @@ app.get("/openpix/webhook", (_req, res) => {
   // Woovi faz GET para validar o endpoint
   return res.sendStatus(200);
 });
+// ✅ Rota de teste/produção para Z-API (tem que existir)
+app.post("/webhook", (req, res) => {
+  console.log("✅ WEBHOOK HIT");
+  console.log("HEADERS:", JSON.stringify(req.headers, null, 2));
+  console.log("BODY:", JSON.stringify(req.body, null, 2));
+  return res.sendStatus(200);
+});
 
+// ✅ Rota raiz (teste no navegador)
+app.get("/", (_req, res) => {
+  res.status(200).send("🚀 3DFANS webhook online");
+});
 
-app.listen(PORT, () => console.log(`🚀 Rodando na porta ${PORT}`));
+// ✅ Rota do webhook (OBRIGATÓRIA para Z-API)
+app.post("/webhook", (req, res) => {
+  console.log("✅ WEBHOOK HIT");
+  console.log("HEADERS:", JSON.stringify(req.headers, null, 2));
+  console.log("BODY:", JSON.stringify(req.body, null, 2));
+  return res.sendStatus(200);
+});
+
+// ✅ Listen compatível com Railway
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`🚀 Rodando na porta ${PORT}`);
+});
