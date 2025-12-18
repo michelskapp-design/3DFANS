@@ -319,26 +319,6 @@ function isDuplicate(phone, text) {
 
 
 function extractText(body) {
-  const candidates = [
-    body?.message,                 // às vezes é string direta
-    body?.text,                    // às vezes é string direta
-    body?.data?.message,
-    body?.data?.text,
-    body?.text?.message,
-    body?.text?.text,
-    body?.message?.text,
-    body?.message?.message,
-  ];
-
-  for (const c of candidates) {
-    if (typeof c === "string") return c;
-    if (c && typeof c?.message === "string") return c.message;
-    if (c && typeof c?.text === "string") return c.text;
-  }
-  return "";
-}
-
-function extractText(body) {
   if (typeof body?.message === "string") return body.message; // ✅ pega direto
   // resto igual:
   const v =
