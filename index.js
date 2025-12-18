@@ -316,7 +316,22 @@ function isDuplicate(phone, text) {
 }
 
 /* ================== PARSE PAYLOAD Z-API (ROBUSTO) ================== */
+function extractPhone(body) {
+  const v =
+    body?.phone ||
+    body?.from ||
+    body?.data?.phone ||
+    body?.data?.from ||
+    body?.message?.from ||
+    body?.message?.phone ||
+    body?.text?.from ||
+    body?.sender ||
+    body?.senderPhone ||
+    body?.message?.sender ||
+    null;
 
+  return v;
+}
 
 function extractText(body) {
   if (typeof body?.message === "string") return body.message; // ✅ pega direto
