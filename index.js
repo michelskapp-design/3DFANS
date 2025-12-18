@@ -316,23 +316,7 @@ function isDuplicate(phone, text) {
 }
 
 /* ================== PARSE PAYLOAD Z-API (ROBUSTO) ================== */
-function extractPhone(body) {
-  const candidates = [
-    body?.phone,
-    body?.from,
-    body?.senderPhone,
-    body?.sender,
-    body?.data?.phone,
-    body?.data?.from,
-    body?.data?.senderPhone,
-    body?.message?.from,
-    body?.message?.phone,
-    body?.message?.senderPhone,
-    body?.text?.from,
-  ];
-  const v = candidates.find((x) => typeof x === "string" || typeof x === "number");
-  return v ?? null;
-}
+
 
 function extractText(body) {
   const candidates = [
