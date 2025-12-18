@@ -26,9 +26,9 @@ app.use(express.urlencoded({ extended: true, limit: "2mb" }));
 /* ================== CONFIG ================== */
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-const ZAPI_INSTANCE = process.env.ZAPI_INSTANCE;
-const ZAPI_TOKEN = process.env.ZAPI_TOKEN;
-const ZAPI_CLIENT_TOKEN = process.env.ZAPI_CLIENT_TOKEN;
+const ZAPI_INSTANCE = (process.env.ZAPI_INSTANCE || "").trim();
+const ZAPI_TOKEN = (process.env.ZAPI_TOKEN || "").trim();
+const ZAPI_CLIENT_TOKEN = (process.env.ZAPI_CLIENT_TOKEN || "").trim();
 
 const SHOPIFY_DOMAIN = process.env.SHOPIFY_DOMAIN;
 const SHOPIFY_STOREFRONT_TOKEN = process.env.SHOPIFY_STOREFRONT_TOKEN;
@@ -66,16 +66,26 @@ const ADMIN_PHONES = new Set(
 
 console.log("ENV CHECK:", {
   OPENAI_API_KEY: !!OPENAI_API_KEY,
+
+  // ✅ bool
   ZAPI_INSTANCE: !!ZAPI_INSTANCE,
   ZAPI_TOKEN: !!ZAPI_TOKEN,
   ZAPI_CLIENT_TOKEN: !!ZAPI_CLIENT_TOKEN,
+
+  // ✅ valor real (pra matar a dúvida)
+  ZAPI_INSTANCE_VALUE: ZAPI_INSTANCE,
+  ZAPI_TOKEN_LEN: String(ZAPI_TOKEN || "").length,
+  ZAPI_CLIENT_TOKEN_LEN: String(ZAPI_CLIENT_TOKEN || "").length,
+
   SHOPIFY_DOMAIN: !!SHOPIFY_DOMAIN,
   SHOPIFY_STOREFRONT_TOKEN: !!SHOPIFY_STOREFRONT_TOKEN,
   SHOP_PUBLIC_DOMAIN,
+
   APPMAX_LINK_16: !!APPMAX_LINK_16,
   APPMAX_LINK_21: !!APPMAX_LINK_21,
   APPMAX_BASE_URL,
   APPMAX_ACCESS_TOKEN: !!APPMAX_ACCESS_TOKEN,
+
   PREVIEW_CHECKOUT_URL,
   OPENPIX_WEBHOOK_SECRET: !!OPENPIX_WEBHOOK_SECRET,
   ADMIN_PHONES: ADMIN_PHONES.size,
