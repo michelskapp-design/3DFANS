@@ -19,8 +19,9 @@ app.use(
     },
   })
 );
-// ✅ Body parsers (garante que req.body venha preenchido)
+
 app.use(express.urlencoded({ extended: true, limit: "2mb" }));
+// ✅ Body parsers (garante que req.body venha preenchido)
 
 /* ================== CONFIG ================== */
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
@@ -333,6 +334,8 @@ function extractPhone(body) {
 }
 
 function extractText(body) {
+  if (typeof body?.message === "string") return body.message; // ✅ pega direto
+  // resto igual:
   const v =
     body?.message ??
     body?.text?.message ??
