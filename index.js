@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
-dotenv.config({ override: true });
+dotenv.config({ override: true, path: process.env.DOTENV_PATH || ".env" });
+
 
 import express from "express";
 import axios from "axios";
